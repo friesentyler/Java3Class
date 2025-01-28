@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h2 th:text="${message}">This is my default text</h2><br/>
+    <h2 th:text="${message2}">This is more default text</h2><br/>
+    <a th:href="@{test4?message=Hello World from a Thymeleaf template!}">Go to /test4</a><br/>
+    <a th:href="@{test3}">Go to /test3</a><br/>
+    <a th:href="@{test2}">Go to /test2</a><br/>
+</body>
+</html>
