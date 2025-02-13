@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/Java3Activity2.1" />
+    <file type="web" url="file://$PROJECT_DIR$/Java3Activity3.1" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -12,6 +13,9 @@
         <option value="$PROJECT_DIR$/Java3Activity2/pom.xml" />
         <option value="$PROJECT_DIR$/Java3Activity2.2/pom.xml" />
         <option value="$PROJECT_DIR$/Java3Activity2.1/pom.xml" />
+        <option value="$PROJECT_DIR$/Java3Activity3.1/pom.xml" />
+        <option value="$PROJECT_DIR$/Java3Activity3.2/pom.xml" />
+        <option value="$PROJECT_DIR$/Java3Activity3.3/pom.xml" />
       </list>
     </option>
   </component>

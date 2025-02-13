@@ -1,0 +1,58 @@
+openapi: 3.0.3
+info:
+  title: Orders Service API
+  description: This is the API documentation for managing orders, providing endpoints to fetch orders in JSON and XML formats.
+  version: 1.0.0
+paths:
+  /service/getjson:
+    get:
+      summary: Retrieve orders in JSON format
+      operationId: getOrdersAsJson
+      responses:
+        '200':
+          description: A list of orders in JSON format
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/OrderModel'
+        '500':
+          description: Internal server error
+  /service/getxml:
+    get:
+      summary: Retrieve orders in XML format
+      operationId: getOrdersAsXml
+      responses:
+        '200':
+          description: A list of orders in XML format
+          content:
+            application/xml:
+              schema:
+                $ref: '#/components/schemas/OrderList'
+        '500':
+          description: Internal server error
+components:
+  schemas:
+    OrderModel:
+      type: object
+      properties:
+        orderId:
+          type: integer
+          description: The ID of the order
+        customerName:
+          type: string
+          description: The name of the customer
+        product:
+          type: string
+          description: The product ordered
+        quantity:
+          type: integer
+          description: The quantity of the product ordered
+    OrderList:
+      type: object
+      properties:
+        orders:
+          type: array
+          items:
+            $ref: '#/components/schemas/OrderModel'
