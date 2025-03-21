@@ -12,6 +12,7 @@
         <module name="Java3Activity4-1" />
         <module name="Java3Activity3-2" />
         <module name="Java3Activity3-3" />
+        <module name="Java3Activity5-1" />
         <module name="Java3Activity3-1" />
         <module name="Java3Activity2-2" />
       </profile>
@@ -48,6 +49,7 @@
       <module name="Java3Activity4-2 (2)" options="-parameters" />
       <module name="Java3Activity4-3" options="-parameters" />
       <module name="Java3Activity4_1" options="-parameters" />
+      <module name="Java3Activity5-1" options="-parameters" />
     </option>
   </component>
 </project>
