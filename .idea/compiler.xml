@@ -9,9 +9,11 @@
         <module name="Java3Activity1" />
         <module name="1" />
         <module name="Java3Activity4-3" />
+        <module name="Java3Activity6-1" />
         <module name="Java3Activity4-1" />
         <module name="Java3Activity3-2" />
         <module name="Java3Activity3-3" />
+        <module name="Java3Activity4-2" />
         <module name="Java3Activity5-1" />
         <module name="Java3Activity3-1" />
         <module name="Java3Activity2-2" />
@@ -27,6 +29,8 @@
       <module name="Java3Activity4-2 (1)" target="17" />
       <module name="Java3Activity4-2 (2)" target="17" />
       <module name="Java3Activity4_1" target="17" />
+      <module name="Java3Activity5-1 (1)" target="17" />
+      <module name="Java3Activity5-1 (2)" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -50,6 +54,9 @@
       <module name="Java3Activity4-3" options="-parameters" />
       <module name="Java3Activity4_1" options="-parameters" />
       <module name="Java3Activity5-1" options="-parameters" />
+      <module name="Java3Activity5-1 (1)" options="-parameters" />
+      <module name="Java3Activity5-1 (2)" options="-parameters" />
+      <module name="Java3Activity6-1" options="-parameters" />
     </option>
   </component>
 </project>
