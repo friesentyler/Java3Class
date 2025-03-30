@@ -8,8 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Java3Activity1" />
         <module name="1" />
+        <module name="Java3Activity6-3" />
+        <module name="Java3Activity6-4" />
         <module name="Java3Activity4-3" />
         <module name="Java3Activity6-1" />
+        <module name="Java3Activity6-2" />
         <module name="Java3Activity4-1" />
         <module name="Java3Activity3-2" />
         <module name="Java3Activity3-3" />
@@ -20,6 +23,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Activity62" target="17" />
+      <module name="Activity63" target="17" />
       <module name="Java3Activity2-2 (1)" target="17" />
       <module name="Java3Activity2-2 (2)" target="17" />
       <module name="Java3Activity2.2" target="17" />
@@ -31,11 +36,16 @@
       <module name="Java3Activity4_1" target="17" />
       <module name="Java3Activity5-1 (1)" target="17" />
       <module name="Java3Activity5-1 (2)" target="17" />
+      <module name="Java3Activity6-1 (1)" target="17" />
+      <module name="Java3Activity6-1 (2)" target="17" />
+      <module name="Java3Activity64" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="1" options="-parameters" />
+      <module name="Activity62" options="-parameters" />
+      <module name="Activity63" options="-parameters" />
       <module name="Java3Activity1" options="-parameters" />
       <module name="Java3Activity2-2" options="-parameters" />
       <module name="Java3Activity2-2 (1)" options="-parameters" />
@@ -57,6 +67,12 @@
       <module name="Java3Activity5-1 (1)" options="-parameters" />
       <module name="Java3Activity5-1 (2)" options="-parameters" />
       <module name="Java3Activity6-1" options="-parameters" />
+      <module name="Java3Activity6-1 (1)" options="-parameters" />
+      <module name="Java3Activity6-1 (2)" options="-parameters" />
+      <module name="Java3Activity6-2" options="-parameters" />
+      <module name="Java3Activity6-3" options="-parameters" />
+      <module name="Java3Activity6-4" options="-parameters" />
+      <module name="Java3Activity64" options="-parameters" />
     </option>
   </component>
 </project>
