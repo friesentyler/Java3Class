@@ -7,12 +7,19 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Java3Activity1" />
+        <module name="Java3Activity7-6" />
+        <module name="Java3Activity7-7" />
+        <module name="Java3Activity7-4" />
         <module name="1" />
+        <module name="Java3Activity7-5" />
         <module name="Java3Activity6-3" />
+        <module name="Java3Activity7-2" />
         <module name="Java3Activity6-4" />
+        <module name="Java3Activity7-3" />
         <module name="Java3Activity4-3" />
         <module name="Java3Activity6-1" />
         <module name="Java3Activity6-2" />
+        <module name="Java3Activity7-1" />
         <module name="Java3Activity4-1" />
         <module name="Java3Activity3-2" />
         <module name="Java3Activity3-3" />
@@ -39,6 +46,8 @@
       <module name="Java3Activity6-1 (1)" target="17" />
       <module name="Java3Activity6-1 (2)" target="17" />
       <module name="Java3Activity64" target="17" />
+      <module name="Java3Activity7-1 (1)" target="17" />
+      <module name="Java3Activity7-1 (2)" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -73,6 +82,15 @@
       <module name="Java3Activity6-3" options="-parameters" />
       <module name="Java3Activity6-4" options="-parameters" />
       <module name="Java3Activity64" options="-parameters" />
+      <module name="Java3Activity7-1" options="-parameters" />
+      <module name="Java3Activity7-1 (1)" options="-parameters" />
+      <module name="Java3Activity7-1 (2)" options="-parameters" />
+      <module name="Java3Activity7-2" options="-parameters" />
+      <module name="Java3Activity7-3" options="-parameters" />
+      <module name="Java3Activity7-4" options="-parameters" />
+      <module name="Java3Activity7-5" options="-parameters" />
+      <module name="Java3Activity7-6" options="-parameters" />
+      <module name="Java3Activity7-7" options="-parameters" />
     </option>
   </component>
 </project>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="www.thymeleaf.org" xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout" layout:decorate="layouts/defaultTemplate">
+<head>
+    <meta charset="UTF-8">
+    <title>CST-339 Spring Boot Activity Application</title>
+</head>
+<body>
+<div layout:fragment="content">
+  <table style="width:15%">
+    <thead>
+    <tr>
+      <th style="text-align:center">User Name</th>
+      <th style="text-align:center">Password</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:if="${users.empty}">
+      <td style="text-align:center" colspan="4">No Users Available</td>
+    </tr>
+    <tr th:each="user : ${users}">
+      <td style="text-align:center"><h5 th:text="${user.username}">Mark</h5></td>
+      <td style="text-align:center"><h5 th:text="${user.password}">Reha</h5></td>
+    </tr>
+    </tbody>
+  </table>
+  <a th:href="@{.}">Go Home</a><br/>
+</div>
+</body>
+</html>

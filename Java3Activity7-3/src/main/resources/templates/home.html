@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:layouts="http://www.ultraq.net.nz/thymeleaf/layout"
+      xmlns:layout="http://www.w3.org/1999/xhtml" layout:decorate="layouts/defaultTemplate">
+<head>
+    <meta charset="UTF-8">
+    <title>CST-339 Spring Boot Activity Application</title>
+</head>
+<body>
+    <div layouts:fragment="content">
+        <a th:href="@{getusers}">View All Users</a><br/>
+        <a th:href="@{getorders}">View All Orders</a><br/>
+    </div>
+</body>
+</html>
